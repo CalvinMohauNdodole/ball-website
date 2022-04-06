@@ -1,0 +1,92 @@
+.body{
+  background: #f1f0f0;
+  margin-top: 0%;
+}
+.section {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  margin-bottom: 100px;
+  justify-content: center;
+  overflow: hidden;
+}
+.section h1 {
+  vertical-align: baseline;
+  text-align: center;
+  font-size: 6rem;
+  font-family: "Cookie";
+  z-index: 1;
+  color: white;
+  opacity: 0.9;
+  margin-top: 23%;
+}
+.video-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  min-width: 100%;
+  min-height: 100%;
+}
+.section .nav-area {
+	background: rgba(0,0,0,0.3);
+	height: 60px;
+	position: absolute/*fixed*/;
+	min-width: 100%;
+	transition: 0.5;
+}
+.section .nav-area .logo a{
+	text-decoration: none;
+	color: white;
+}
+.section .nav-area .logo a span{
+	color: red;
+}
+.logo{
+	margin: 0 50px;
+	height: 60px;
+	float: left;
+	color: #fff;
+	font-size: 35px;
+	text-transform: capitalize;
+	font-weight: bold;
+	letter-spacing: 2px;
+	margin: 0.5% 3.5%;
+}
+.menu-area{
+	float: right;
+	list-style: none;
+	margin: 20px;
+}
+.menu-area li{
+	display: inline-block;
+	margin: 0 50px;
+}
+.menu-area li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 10px;
+	letter-spacing: 2px;
+}
+.menu-area li a:hover{
+	color: #936D2B;
+}
+.color-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #f8f8f8;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.3;
+}
+.bottom-bar {	
+	text-align: center;
+	letter-spacing: 18;
+  	font-size: 18px;
+}
+.div .p{
+	border-width: 2px;
+	color: red;
+	
+}
